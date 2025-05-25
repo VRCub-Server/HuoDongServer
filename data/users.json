@@ -1,0 +1,43 @@
+[
+  {
+    "id": "Steve",
+    "username": "Steve",
+    "avatarUrl": "https://placehold.co/100x100.png?text=St",
+    "joinedEventIds": [
+      "event1",
+      "event2"
+    ],
+    "op": 0,
+    "password": "123456"
+  },
+  {
+    "id": "Alex",
+    "username": "Alex",
+    "avatarUrl": "https://placehold.co/100x100.png?text=Al",
+    "joinedEventIds": [
+      "event2"
+    ],
+    "op": 0,
+    "password": "123456"
+  },
+  {
+    "id": "Notch",
+    "username": "Notch",
+    "avatarUrl": "https://placehold.co/100x100.png?text=No",
+    "joinedEventIds": [],
+    "op": 1,
+    "password": "123456"
+  },
+  {
+    "id": "dream_pep_id",
+    "username": "dream_pep",
+    "avatarUrl": "https://placehold.co/100x100.png?text=dr",
+    "joinedEventIds": [
+      "event1",
+      "event3",
+      "event_1747228478227_2n7f2"
+    ],
+    "op": 1,
+    "password": "123456"
+  }
+]

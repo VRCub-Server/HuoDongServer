@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/user/studio/src/app/dashboard/layout.tsx"],"sourcesContent":["\n// This layout is now simplified as RootLayout handles global Header, Sidebar, and Footer.\nexport default function DashboardLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return <>{children}</>;\n}\n"],"names":[],"mappings":"AACA,0FAA0F;;;;;;AAC3E,SAAS,gBAAgB,EACtC,QAAQ,EAGT;IACC,qBAAO;kBAAG;;AACZ","debugId":null}},
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["file:///home/user/studio/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,4HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0],"debugId":null}}]
+}

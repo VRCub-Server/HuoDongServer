@@ -1,0 +1,117 @@
+[
+  {
+    "id": "event1",
+    "name": "生存游戏锦标赛",
+    "date": "2024-07-29T12:00:00.000Z",
+    "description": "\n### 欢迎参加年度生存游戏！\n证明你的勇气，成为最后的幸存者。\n**规则：**\n- 禁止作弊\n- 联盟是暂时的\n- 玩得开心！\n**奖品：**\n- 第一名：钻石奖杯\n- 第二名：金锭\n- 第三名：铁制工具\n",
+    "participantLimit": 24,
+    "participants": [
+      {
+        "id": "user1",
+        "username": "Steve",
+        "avatarUrl": "https://picsum.photos/seed/steve_minecraft/100/100",
+        "joinedEventIds": [
+          "event1",
+          "event2"
+        ],
+        "isCheckedIn": false
+      },
+      {
+        "id": "dream_pep_id",
+        "username": "dream_pep",
+        "avatarUrl": "https://picsum.photos/seed/dream_pep_mc_avatar/100/100",
+        "joinedEventIds": [
+          "event1",
+          "event3"
+        ],
+        "isCheckedIn": false
+      }
+    ],
+    "cdKey": "SURVIVAL2024",
+    "imageUrl": "https://picsum.photos/seed/minecraft_survival_game/600/400",
+    "organizerId": "adminUser"
+  },
+  {
+    "id": "event2",
+    "name": "创意建筑大赛",
+    "date": "2024-07-22T12:00:00.000Z",
+    "description": "\n## 展示你的建筑技巧！\n主题：**中世纪城堡**\n在时限内建造最令人印象深刻的城堡。\n评分标准：\n- 创意\n- 细节\n- 规模\n",
+    "participantLimit": 50,
+    "participants": [
+      {
+        "id": "user1",
+        "username": "Steve",
+        "avatarUrl": "https://picsum.photos/seed/steve_minecraft/100/100",
+        "joinedEventIds": [
+          "event1",
+          "event2"
+        ],
+        "isCheckedIn": true
+      },
+      {
+        "id": "user2",
+        "username": "Alex",
+        "avatarUrl": "https://picsum.photos/seed/alex_minecraft/100/100",
+        "joinedEventIds": [
+          "event2"
+        ],
+        "isCheckedIn": false
+      }
+    ],
+    "cdKey": "BUILDMC2024",
+    "imageUrl": "https://picsum.photos/seed/minecraft_castle_build/600/400",
+    "organizerId": "adminUser"
+  },
+  {
+    "id": "event3",
+    "name": "跑酷挑战赛",
+    "date": "2024-07-08T12:00:00.000Z",
+    "description": "在我们迄今为止最难的跑酷地图中测试你的敏捷性。完成即可获得奖励！",
+    "participants": [
+      {
+        "id": "dream_pep_id",
+        "username": "dream_pep",
+        "avatarUrl": "https://picsum.photos/seed/dream_pep_mc_avatar/100/100",
+        "joinedEventIds": [
+          "event1",
+          "event3"
+        ],
+        "isCheckedIn": true
+      }
+    ],
+    "cdKey": "PARKOURX",
+    "imageUrl": "https://picsum.photos/seed/minecraft_parkour_challenge/600/400",
+    "organizerId": "adminUser"
+  },
+  {
+    "id": "event4",
+    "name": "红石装置展览会",
+    "date": "2024-08-21T12:00:00.000Z",
+    "description": "展示你最巧妙的红石发明。创新是关键！",
+    "participantLimit": 10,
+    "participants": [],
+    "cdKey": "REDSTONEFAI",
+    "imageUrl": "https://picsum.photos/seed/minecraft_redstone_contraption/600/400",
+    "organizerId": "adminUser"
+  },
+  {
+    "name": "测试活动",
+    "date": "2025-05-16T21:14",
+    "description": "这是个测试活动将菜单改为侧边栏与仪表盘的数据面盘打通将菜单改为侧边栏与仪表盘的数据面盘打通将菜单改为侧边栏与仪表盘的数据面盘打通将菜单改为侧边栏与仪表盘的数据面盘打通将菜单改为侧边栏与仪表盘的数据面盘打通将菜单改为侧边栏与仪表盘的数据面盘打通将菜单改为侧边栏与仪表盘的数据面盘打通将菜单改为侧边栏与仪表盘的数据面盘打通将菜单改为侧边栏与仪表盘的数据面盘打通将菜单改为侧边栏与仪表盘的数据面盘打通将菜单改为侧边栏与仪表盘的数据面盘打通",
+    "participantLimit": 50,
+    "cdKey": "Beta1",
+    "imageUrl": "",
+    "id": "event_1747228478227_2n7f2",
+    "participants": [
+      {
+        "id": "dream_pep_id",
+        "username": "dream_pep",
+        "avatarUrl": "https://placehold.co/100x100.png?text=dr",
+        "isCheckedIn": false,
+        "op": 1,
+        "password": "123456"
+      }
+    ],
+    "organizerId": "dream_pep_id"
+  }
+]

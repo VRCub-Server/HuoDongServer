@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/user/studio/src/app/%28auth%29/layout.tsx"],"sourcesContent":["\n// This layout is now simplified as RootLayout handles global Header, Sidebar, and Footer.\n// The login page will need to handle its own centering if desired.\nexport default function AuthLayout({\n  children,\n}: {\n  children: React.ReactNode\n}) {\n  return <>{children}</>;\n}\n"],"names":[],"mappings":"AACA,0FAA0F;AAC1F,mEAAmE;;;;;;AACpD,SAAS,WAAW,EACjC,QAAQ,EAGT;IACC,qBAAO;kBAAG;;AACZ","debugId":null}}]
+}

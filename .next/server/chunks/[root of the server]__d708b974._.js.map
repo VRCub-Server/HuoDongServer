@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":["file:///home/user/studio/src/app/api/auth/logout/route.ts"],"sourcesContent":["import { cookies } from 'next/headers';\nimport { NextResponse } from 'next/server';\nimport { type NextRequest } from 'next/server'\n\nexport async function POST(request: NextRequest) {\n  cookies().delete('userId');\n  \n  // Redirect to login page or home page after logout\n  // Get base URL from request headers for proper redirection\n  const url = request.nextUrl.clone()\n  url.pathname = '/login'\n  return NextResponse.redirect(url, { status: 302 });\n}\n"],"names":[],"mappings":";;;AAAA;AACA;;;AAGO,eAAe,KAAK,OAAoB;IAC7C,CAAA,GAAA,iIAAA,CAAA,UAAO,AAAD,IAAI,MAAM,CAAC;IAEjB,mDAAmD;IACnD,2DAA2D;IAC3D,MAAM,MAAM,QAAQ,OAAO,CAAC,KAAK;IACjC,IAAI,QAAQ,GAAG;IACf,OAAO,gIAAA,CAAA,eAAY,CAAC,QAAQ,CAAC,KAAK;QAAE,QAAQ;IAAI;AAClD","debugId":null}}]
+}
